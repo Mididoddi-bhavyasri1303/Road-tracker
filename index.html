@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Charset & Viewport -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Verification -->
+  <meta name="google-site-verification" content="l7z0Q_TornietE_QcBOMxep0JO8UeNAX6iAMSgXs2z8" />
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-635HWED7NZ"></script>
   <script>
@@ -10,23 +17,19 @@
     gtag('config', 'G-635HWED7NZ');
   </script>
 
-  <!-- Basic Meta -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="l7z0Q_TornietE_QcBOMxep0JO8UeNAX6iAMSgXs2z8" />
-
-  <!-- SEO Meta -->
-  <title>Road Tracker | Smart Road Monitoring System</title>
-  <meta name="description" content="Road Tracker helps detect potholes, monitor road conditions, and improve road safety using smart technology." />
-  <meta name="keywords" content="road tracker, pothole detection, smart roads, road safety, traffic monitoring" />
+  <!-- Primary SEO -->
+  <title>Road Tracker | Pothole Detection & Smart Road Monitoring</title>
+  <meta name="description" content="Road Tracker is a smart system for detecting potholes, monitoring road conditions, and improving road safety using modern technology." />
+  <meta name="keywords" content="road tracker, pothole detection, road safety, smart road monitoring, traffic system" />
   <meta name="author" content="Road Tracker" />
+  <meta name="robots" content="index, follow" />
 
-  <!-- Canonical URL -->
+  <!-- Canonical -->
   <link rel="canonical" href="https://road-tracker-q091.onrender.com/" />
 
-  <!-- Open Graph (for social media) -->
-  <meta property="og:title" content="Road Tracker - Smart Road Monitoring" />
-  <meta property="og:description" content="Track road conditions and improve safety using Road Tracker." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Road Tracker - Smart Road Monitoring System" />
+  <meta property="og:description" content="Detect potholes and improve road safety using Road Tracker." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://road-tracker-q091.onrender.com/" />
   <meta property="og:image" content="https://road-tracker-q091.onrender.com/preview.png" />
@@ -34,7 +37,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Road Tracker" />
-  <meta name="twitter:description" content="Smart road monitoring system." />
+  <meta name="twitter:description" content="Smart road monitoring and pothole detection system." />
   <meta name="twitter:image" content="https://road-tracker-q091.onrender.com/preview.png" />
 
   <!-- Favicon -->
@@ -43,16 +46,31 @@
 </head>
 
 <body>
-  <!-- SEO Visible Content (IMPORTANT for Google) -->
+
+  <!-- SEO fallback content -->
   <noscript>
-    <h1>Road Tracker</h1>
-    <p>Smart system to detect potholes and monitor road conditions for safer travel.</p>
+    <h1>Road Tracker - Smart Road Monitoring System</h1>
+    <p>
+      Road Tracker helps detect potholes, monitor road conditions,
+      and improve road safety using smart technology.
+    </p>
   </noscript>
 
-  <!-- React App Root -->
+  <!-- IMPORTANT: Visible SEO Content (Google needs this) -->
+  <div style="display:none;">
+    <h1>Road Tracker</h1>
+    <h2>Pothole Detection and Road Safety System</h2>
+    <p>
+      Road Tracker is a smart road monitoring system that detects potholes,
+      tracks road conditions, and improves transportation safety.
+    </p>
+  </div>
+
+  <!-- React App -->
   <div id="root"></div>
 
   <!-- Main Script -->
   <script type="module" src="/src/main.tsx"></script>
+
 </body>
 </html>
