@@ -1,33 +1,58 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-635HWED7NZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-635HWED7NZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-635HWED7NZ');
+  </script>
 
-  gtag('config', 'G-635HWED7NZ');
-</script>
-    <meta name="google-site-verification" content="l7z0Q_TornietE_QcBOMxep0JO8UeNAX6iAMSgXs2z8" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Road-Tracker</title>
-    <meta name="author" content="Road-tracker" />
+  <!-- Basic Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="l7z0Q_TornietE_QcBOMxep0JO8UeNAX6iAMSgXs2z8" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Road-tracker" />
-    <meta property="og:description" content="Road-tracker" />
-    <meta property="og:type" content="website" />
+  <!-- SEO Meta -->
+  <title>Road Tracker | Smart Road Monitoring System</title>
+  <meta name="description" content="Road Tracker helps detect potholes, monitor road conditions, and improve road safety using smart technology." />
+  <meta name="keywords" content="road tracker, pothole detection, smart roads, road safety, traffic monitoring" />
+  <meta name="author" content="Road Tracker" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Road-tracker" />
-  </head>
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://road-tracker-q091.onrender.com/" />
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Open Graph (for social media) -->
+  <meta property="og:title" content="Road Tracker - Smart Road Monitoring" />
+  <meta property="og:description" content="Track road conditions and improve safety using Road Tracker." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://road-tracker-q091.onrender.com/" />
+  <meta property="og:image" content="https://road-tracker-q091.onrender.com/preview.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Road Tracker" />
+  <meta name="twitter:description" content="Smart road monitoring system." />
+  <meta name="twitter:image" content="https://road-tracker-q091.onrender.com/preview.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" />
+
+</head>
+
+<body>
+  <!-- SEO Visible Content (IMPORTANT for Google) -->
+  <noscript>
+    <h1>Road Tracker</h1>
+    <p>Smart system to detect potholes and monitor road conditions for safer travel.</p>
+  </noscript>
+
+  <!-- React App Root -->
+  <div id="root"></div>
+
+  <!-- Main Script -->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
